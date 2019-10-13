@@ -1,32 +1,6 @@
-[14102019 00:33:40.443] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20190829.143755, --fml.mcVersion, 1.14.4, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 28.1.44, --version, MOD_DEV, --assetIndex, 1.14, --assetsDir, C:\Users\èHè@\.gradle\caches\forge_gradle\assets, --username, Dev, --accessToken, ????????, --userProperties, {}]
-[14102019 00:33:40.446] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 4.0.0+61+ca3b447 starting: java version 1.8.0_201 by Oracle Corporation
-[14102019 00:33:40.760] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[14102019 00:33:40.809] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file C:\minecraftMOD\1.14.4\MacroMOD\run\config\fml.toml is not correct. Correcting
-[14102019 00:33:40.814] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [defaultConfigPath] was corrected from null to defaultconfigs
-[14102019 00:33:40.903] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ExplodedDirectoryLocator/LOADING]: Failed to find exploded resource mods.toml in directory C:\minecraftMOD\1.14.4\MacroMOD\build\resources\main
-[14102019 00:33:41.500] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\èHè@\.gradle\caches\forge_gradle\assets, --assetIndex, 1.14, --username, Dev, --accessToken, ????????, --userProperties, {}]
-[14102019 00:33:43.981] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[14102019 00:33:53.583] [Client thread/INFO] [net.minecraft.client.Minecraft/]: LWJGL Version: 3.2.2 build 10
-[14102019 00:33:54.526] [modloading-worker-2/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 28.1.44, for MC 1.14.4 with MCP 20190829.143755
-[14102019 00:33:54.527] [modloading-worker-2/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v28.1.44 Initialized
-[14102019 00:33:57.665] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
-[14102019 00:33:57.760] [Server-Worker-6/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\minecraftMOD\1.14.4\MacroMOD\run\config\forge-client.toml is not correct. Correcting
-[14102019 00:33:57.761] [Server-Worker-6/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client was corrected from null to SimpleCommentedConfig:{}
-[14102019 00:33:57.761] [Server-Worker-6/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.zoomInMissingModelTextInGui was corrected from null to false
-[14102019 00:33:57.761] [Server-Worker-6/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.forgeCloudsEnabled was corrected from null to true
-[14102019 00:33:57.761] [Server-Worker-6/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.disableStairSlabCulling was corrected from null to false
-[14102019 00:33:57.761] [Server-Worker-6/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.alwaysSetupTerrainOffThread was corrected from null to false
-[14102019 00:33:57.761] [Server-Worker-6/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.forgeLightPipelineEnabled was corrected from null to true
-[14102019 00:33:57.761] [Server-Worker-6/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.selectiveResourceReloadEnabled was corrected from null to true
-[14102019 00:33:57.762] [Server-Worker-6/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showLoadWarnings was corrected from null to true
-[14102019 00:33:57.762] [Server-Worker-6/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.allowEmissiveItems was corrected from null to true
-[14102019 00:33:57.996] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[14102019 00:33:59.279] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 28.1.44 Target: null
-[14102019 00:34:00.678] [Client thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
-[14102019 00:34:00.679] [Client thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
-[14102019 00:34:00.817] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512 textures-atlas
-[14102019 00:34:01.426] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256 textures/particle-atlas
-[14102019 00:34:01.427] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256 textures/painting-atlas
-[14102019 00:34:01.427] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128 textures/mob_effect-atlas
-[14102019 00:34:02.466] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
-[14102019 00:36:16.143] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[14102019 00:37:09.390] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20190829.143755, --fml.mcVersion, 1.14.4, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 28.1.44, --version, MOD_DEV, --assetIndex, 1.14, --assetsDir, C:\Users\èHè@\.gradle\caches\forge_gradle\assets, --username, Dev, --accessToken, ????????, --userProperties, {}]
+[14102019 00:37:09.393] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 4.0.0+61+ca3b447 starting: java version 1.8.0_201 by Oracle Corporation
+[14102019 00:37:09.698] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[14102019 00:37:09.825] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ExplodedDirectoryLocator/LOADING]: Failed to find exploded resource mods.toml in directory C:\minecraftMOD\1.14.4\MacroMOD\build\resources\main
+[14102019 00:37:10.347] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\èHè@\.gradle\caches\forge_gradle\assets, --assetIndex, 1.14, --username, Dev, --accessToken, ????????, --userProperties, {}]
+[14102019 00:37:12.573] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
