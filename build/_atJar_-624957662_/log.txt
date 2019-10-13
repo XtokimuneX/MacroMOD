@@ -1,0 +1,5 @@
+Args: "--inJar", "C:\Users\èHè@\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.14.4-28.1.44\forge-1.14.4-28.1.44-injected.jar", "--outJar", "C:\Users\èHè@\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.14.4-28.1.44_mapped_snapshot_20190719-1.14.3\forge-1.14.4-28.1.44_mapped_snapshot_20190719-1.14.3.jar", "--logFile", "accesstransform.log", "--atFile", "C:\minecraftMOD\1.14.4\MacroMOD\build\_atJar_-624957662_\parent_at.cfg"
+Classpath: C:\Users\èHè@\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\accesstransformers\0.14.4\accesstransformers-0.14.4-fatjar.jar
+WorkDir: C:\minecraftMOD\1.14.4\MacroMOD\build\_atJar_-624957662_
+Main: net.minecraftforge.accesstransformer.TransformerProcessor
+====================================
