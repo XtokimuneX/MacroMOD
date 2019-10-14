@@ -1,6 +1,58 @@
-[14102019 00:37:09.390] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20190829.143755, --fml.mcVersion, 1.14.4, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 28.1.44, --version, MOD_DEV, --assetIndex, 1.14, --assetsDir, C:\Users\èHè@\.gradle\caches\forge_gradle\assets, --username, Dev, --accessToken, ????????, --userProperties, {}]
-[14102019 00:37:09.393] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 4.0.0+61+ca3b447 starting: java version 1.8.0_201 by Oracle Corporation
-[14102019 00:37:09.698] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[14102019 00:37:09.825] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ExplodedDirectoryLocator/LOADING]: Failed to find exploded resource mods.toml in directory C:\minecraftMOD\1.14.4\MacroMOD\build\resources\main
-[14102019 00:37:10.347] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\èHè@\.gradle\caches\forge_gradle\assets, --assetIndex, 1.14, --username, Dev, --accessToken, ????????, --userProperties, {}]
-[14102019 00:37:12.573] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[15102019 01:45:06.830] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20190829.143755, --fml.mcVersion, 1.14.4, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 28.1.44, --version, MOD_DEV, --assetIndex, 1.14, --assetsDir, C:\Users\èHè@\.gradle\caches\forge_gradle\assets, --username, Dev, --accessToken, ????????, --userProperties, {}]
+[15102019 01:45:06.834] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 4.0.0+61+ca3b447 starting: java version 1.8.0_201 by Oracle Corporation
+[15102019 01:45:07.148] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[15102019 01:45:07.872] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\èHè@\.gradle\caches\forge_gradle\assets, --assetIndex, 1.14, --username, Dev, --accessToken, ????????, --userProperties, {}]
+[15102019 01:45:10.026] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[15102019 01:45:18.593] [Client thread/WARN] [net.minecraft.client.GameSettings/]: Skipping bad option: lastServer:
+[15102019 01:45:18.614] [Client thread/INFO] [net.minecraft.client.Minecraft/]: LWJGL Version: 3.2.2 build 10
+[15102019 01:45:19.788] [modloading-worker-2/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 28.1.44, for MC 1.14.4 with MCP 20190829.143755
+[15102019 01:45:19.788] [modloading-worker-2/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v28.1.44 Initialized
+[15102019 01:45:20.266] [Client thread/ERROR] [net.minecraft.resources.ResourcePack/]: Couldn't load pack metadata
+com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Expected name at line 5 column 6 path $.pack.pack_format
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:359) ~[forge-1.14.4-28.1.44_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:411) ~[forge-1.14.4-28.1.44_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:419) ~[forge-1.14.4-28.1.44_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
+	at net.minecraft.resources.ResourcePack.getResourceMetadata(ResourcePack.java:75) ~[forge-1.14.4-28.1.44_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
+	at net.minecraft.resources.ResourcePack.getMetadata(ResourcePack.java:65) ~[forge-1.14.4-28.1.44_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
+	at net.minecraft.resources.ResourcePackInfo.createResourcePack(ResourcePackInfo.java:38) ~[forge-1.14.4-28.1.44_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
+	at net.minecraftforge.fml.client.ClientModLoader.clientPackFinder(ClientModLoader.java:194) ~[forge-1.14.4-28.1.44_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
+	at net.minecraftforge.fml.client.ClientModLoader.lambda$buildPackFinder$10(ClientModLoader.java:184) ~[forge-1.14.4-28.1.44_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
+	at net.minecraftforge.fml.packs.ResourcePackLoader$LambdaFriendlyPackFinder.addPackInfosToMap(ResourcePackLoader.java:78) ~[forge-1.14.4-28.1.44_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
+	at net.minecraft.resources.ResourcePackList.reloadPacksFromFinders(ResourcePackList.java:34) ~[forge-1.14.4-28.1.44_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:458) ~[forge-1.14.4-28.1.44_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:365) ~[forge-1.14.4-28.1.44_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:128) ~[forge-1.14.4-28.1.44_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_201]
+	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:55) ~[forge-1.14.4-28.1.44_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-4.0.0.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-4.0.0.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-4.0.0.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-4.0.0.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-4.0.0.jar:?]
+	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:101) [forge-1.14.4-28.1.44_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
+Caused by: com.google.gson.stream.MalformedJsonException: Expected name at line 5 column 6 path $.pack.pack_format
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1559) ~[gson-2.8.0.jar:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:505) ~[gson-2.8.0.jar:?]
+	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:414) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:738) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:739) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:714) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$35$1.read(TypeAdapters.java:910) ~[gson-2.8.0.jar:?]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:357) ~[forge-1.14.4-28.1.44_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
+	... 23 more
+[15102019 01:45:20.279] [Client thread/WARN] [net.minecraft.resources.ResourcePackInfo/]: Couldn't find pack meta for pack mod:macro_mod
+[15102019 01:45:21.698] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[15102019 01:45:23.237] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[15102019 01:45:24.283] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 28.1.44 Target: 28.1.45
+[15102019 01:45:26.834] [Client thread/WARN] [net.minecraft.client.GameSettings/]: Skipping bad option: lastServer:
+[15102019 01:45:26.933] [Client thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
+[15102019 01:45:26.933] [Client thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
+[15102019 01:45:27.069] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512 textures-atlas
+[15102019 01:45:27.655] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256 textures/particle-atlas
+[15102019 01:45:27.656] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256 textures/painting-atlas
+[15102019 01:45:27.656] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128 textures/mob_effect-atlas
+[15102019 01:45:28.529] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[15102019 01:45:50.635] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
