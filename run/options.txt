@@ -96,7 +96,6 @@ key_マクロ5:key.keyboard.unknown
 key_マクロ6:key.keyboard.unknown
 key_マクロ7:key.keyboard.unknown
 key_マクロ8:key.keyboard.unknown
-key_設定再読み込み:key.keyboard.keypad.1
 soundCategory_master:0.0
 soundCategory_music:1.0
 soundCategory_record:1.0

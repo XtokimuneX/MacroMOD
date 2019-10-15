@@ -1,13 +1,13 @@
-[15102019 01:45:06.830] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20190829.143755, --fml.mcVersion, 1.14.4, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 28.1.44, --version, MOD_DEV, --assetIndex, 1.14, --assetsDir, C:\Users\èHè@\.gradle\caches\forge_gradle\assets, --username, Dev, --accessToken, ????????, --userProperties, {}]
-[15102019 01:45:06.834] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 4.0.0+61+ca3b447 starting: java version 1.8.0_201 by Oracle Corporation
-[15102019 01:45:07.148] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[15102019 01:45:07.872] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\èHè@\.gradle\caches\forge_gradle\assets, --assetIndex, 1.14, --username, Dev, --accessToken, ????????, --userProperties, {}]
-[15102019 01:45:10.026] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[15102019 01:45:18.593] [Client thread/WARN] [net.minecraft.client.GameSettings/]: Skipping bad option: lastServer:
-[15102019 01:45:18.614] [Client thread/INFO] [net.minecraft.client.Minecraft/]: LWJGL Version: 3.2.2 build 10
-[15102019 01:45:19.788] [modloading-worker-2/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 28.1.44, for MC 1.14.4 with MCP 20190829.143755
-[15102019 01:45:19.788] [modloading-worker-2/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v28.1.44 Initialized
-[15102019 01:45:20.266] [Client thread/ERROR] [net.minecraft.resources.ResourcePack/]: Couldn't load pack metadata
+[15102019 02:04:57.924] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20190829.143755, --fml.mcVersion, 1.14.4, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 28.1.44, --version, MOD_DEV, --assetIndex, 1.14, --assetsDir, C:\Users\èHè@\.gradle\caches\forge_gradle\assets, --username, Dev, --accessToken, ????????, --userProperties, {}]
+[15102019 02:04:57.929] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 4.0.0+61+ca3b447 starting: java version 1.8.0_201 by Oracle Corporation
+[15102019 02:04:58.269] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[15102019 02:04:59.443] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\èHè@\.gradle\caches\forge_gradle\assets, --assetIndex, 1.14, --username, Dev, --accessToken, ????????, --userProperties, {}]
+[15102019 02:05:01.911] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[15102019 02:05:10.814] [Client thread/WARN] [net.minecraft.client.GameSettings/]: Skipping bad option: lastServer:
+[15102019 02:05:10.835] [Client thread/INFO] [net.minecraft.client.Minecraft/]: LWJGL Version: 3.2.2 build 10
+[15102019 02:05:12.276] [modloading-worker-2/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 28.1.44, for MC 1.14.4 with MCP 20190829.143755
+[15102019 02:05:12.276] [modloading-worker-2/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v28.1.44 Initialized
+[15102019 02:05:12.546] [Client thread/ERROR] [net.minecraft.resources.ResourcePack/]: Couldn't load pack metadata
 com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Expected name at line 5 column 6 path $.pack.pack_format
 	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:359) ~[forge-1.14.4-28.1.44_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
 	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:411) ~[forge-1.14.4-28.1.44_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
@@ -43,16 +43,16 @@ Caused by: com.google.gson.stream.MalformedJsonException: Expected name at line 
 	at com.google.gson.internal.bind.TypeAdapters$35$1.read(TypeAdapters.java:910) ~[gson-2.8.0.jar:?]
 	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:357) ~[forge-1.14.4-28.1.44_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
 	... 23 more
-[15102019 01:45:20.279] [Client thread/WARN] [net.minecraft.resources.ResourcePackInfo/]: Couldn't find pack meta for pack mod:macro_mod
-[15102019 01:45:21.698] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
-[15102019 01:45:23.237] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[15102019 01:45:24.283] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 28.1.44 Target: 28.1.45
-[15102019 01:45:26.834] [Client thread/WARN] [net.minecraft.client.GameSettings/]: Skipping bad option: lastServer:
-[15102019 01:45:26.933] [Client thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
-[15102019 01:45:26.933] [Client thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
-[15102019 01:45:27.069] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512 textures-atlas
-[15102019 01:45:27.655] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256 textures/particle-atlas
-[15102019 01:45:27.656] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256 textures/painting-atlas
-[15102019 01:45:27.656] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128 textures/mob_effect-atlas
-[15102019 01:45:28.529] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
-[15102019 01:45:50.635] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[15102019 02:05:12.563] [Client thread/WARN] [net.minecraft.resources.ResourcePackInfo/]: Couldn't find pack meta for pack mod:macro_mod
+[15102019 02:05:14.883] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[15102019 02:05:15.111] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[15102019 02:05:16.265] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 28.1.44 Target: 28.1.45
+[15102019 02:05:18.880] [Client thread/WARN] [net.minecraft.client.GameSettings/]: Skipping bad option: lastServer:
+[15102019 02:05:18.995] [Client thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
+[15102019 02:05:18.995] [Client thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
+[15102019 02:05:19.128] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512 textures-atlas
+[15102019 02:05:19.712] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256 textures/particle-atlas
+[15102019 02:05:19.713] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256 textures/painting-atlas
+[15102019 02:05:19.714] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128 textures/mob_effect-atlas
+[15102019 02:05:20.628] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[15102019 02:06:00.066] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
