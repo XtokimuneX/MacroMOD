@@ -1,0 +1,15 @@
+{
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2019-10-15 23:31:06 +0900"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2019-10-15 23:27:18 +0900"
+    },
+    "done": false
+  },
+  "DataVersion": 1976
+}

@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: MacroMOD
+Implementation-Version: 1.0.8
+Specification-Vendor: XtokimuneX
+Specification-Title: MacroMOD
+Implementation-Timestamp: 2019-10-16T17:48:19+0900
+Specification-Version: 1
+Implementation-Vendor: XtokimuneX
+

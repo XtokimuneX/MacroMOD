@@ -1,58 +1,101 @@
-[15102019 02:04:57.924] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20190829.143755, --fml.mcVersion, 1.14.4, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 28.1.44, --version, MOD_DEV, --assetIndex, 1.14, --assetsDir, C:\Users\秋宗\.gradle\caches\forge_gradle\assets, --username, Dev, --accessToken, ????????, --userProperties, {}]
-[15102019 02:04:57.929] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 4.0.0+61+ca3b447 starting: java version 1.8.0_201 by Oracle Corporation
-[15102019 02:04:58.269] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[15102019 02:04:59.443] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\秋宗\.gradle\caches\forge_gradle\assets, --assetIndex, 1.14, --username, Dev, --accessToken, ????????, --userProperties, {}]
-[15102019 02:05:01.911] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[15102019 02:05:10.814] [Client thread/WARN] [net.minecraft.client.GameSettings/]: Skipping bad option: lastServer:
-[15102019 02:05:10.835] [Client thread/INFO] [net.minecraft.client.Minecraft/]: LWJGL Version: 3.2.2 build 10
-[15102019 02:05:12.276] [modloading-worker-2/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 28.1.44, for MC 1.14.4 with MCP 20190829.143755
-[15102019 02:05:12.276] [modloading-worker-2/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v28.1.44 Initialized
-[15102019 02:05:12.546] [Client thread/ERROR] [net.minecraft.resources.ResourcePack/]: Couldn't load pack metadata
-com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Expected name at line 5 column 6 path $.pack.pack_format
-	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:359) ~[forge-1.14.4-28.1.44_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:411) ~[forge-1.14.4-28.1.44_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:419) ~[forge-1.14.4-28.1.44_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.resources.ResourcePack.getResourceMetadata(ResourcePack.java:75) ~[forge-1.14.4-28.1.44_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.resources.ResourcePack.getMetadata(ResourcePack.java:65) ~[forge-1.14.4-28.1.44_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.resources.ResourcePackInfo.createResourcePack(ResourcePackInfo.java:38) ~[forge-1.14.4-28.1.44_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraftforge.fml.client.ClientModLoader.clientPackFinder(ClientModLoader.java:194) ~[forge-1.14.4-28.1.44_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraftforge.fml.client.ClientModLoader.lambda$buildPackFinder$10(ClientModLoader.java:184) ~[forge-1.14.4-28.1.44_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraftforge.fml.packs.ResourcePackLoader$LambdaFriendlyPackFinder.addPackInfosToMap(ResourcePackLoader.java:78) ~[forge-1.14.4-28.1.44_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.resources.ResourcePackList.reloadPacksFromFinders(ResourcePackList.java:34) ~[forge-1.14.4-28.1.44_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.Minecraft.init(Minecraft.java:458) ~[forge-1.14.4-28.1.44_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:365) ~[forge-1.14.4-28.1.44_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.main.Main.main(Main.java:128) ~[forge-1.14.4-28.1.44_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_201]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_201]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_201]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_201]
-	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:55) ~[forge-1.14.4-28.1.44_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-4.0.0.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-4.0.0.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-4.0.0.jar:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-4.0.0.jar:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-4.0.0.jar:?]
-	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:101) [forge-1.14.4-28.1.44_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-Caused by: com.google.gson.stream.MalformedJsonException: Expected name at line 5 column 6 path $.pack.pack_format
-	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1559) ~[gson-2.8.0.jar:?]
-	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:505) ~[gson-2.8.0.jar:?]
-	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:414) ~[gson-2.8.0.jar:?]
-	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:738) ~[gson-2.8.0.jar:?]
-	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:739) ~[gson-2.8.0.jar:?]
-	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:714) ~[gson-2.8.0.jar:?]
-	at com.google.gson.internal.bind.TypeAdapters$35$1.read(TypeAdapters.java:910) ~[gson-2.8.0.jar:?]
-	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:357) ~[forge-1.14.4-28.1.44_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	... 23 more
-[15102019 02:05:12.563] [Client thread/WARN] [net.minecraft.resources.ResourcePackInfo/]: Couldn't find pack meta for pack mod:macro_mod
-[15102019 02:05:14.883] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
-[15102019 02:05:15.111] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[15102019 02:05:16.265] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 28.1.44 Target: 28.1.45
-[15102019 02:05:18.880] [Client thread/WARN] [net.minecraft.client.GameSettings/]: Skipping bad option: lastServer:
-[15102019 02:05:18.995] [Client thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
-[15102019 02:05:18.995] [Client thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
-[15102019 02:05:19.128] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512 textures-atlas
-[15102019 02:05:19.712] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256 textures/particle-atlas
-[15102019 02:05:19.713] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256 textures/painting-atlas
-[15102019 02:05:19.714] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128 textures/mob_effect-atlas
-[15102019 02:05:20.628] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
-[15102019 02:06:00.066] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[16102019 17:45:44.921] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20190829.143755, --fml.mcVersion, 1.14.4, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 28.1.44, --version, MOD_DEV, --assetIndex, 1.14, --assetsDir, C:\Users\秋宗\.gradle\caches\forge_gradle\assets, --username, Dev, --accessToken, ????????, --userProperties, {}]
+[16102019 17:45:44.925] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 4.0.0+61+ca3b447 starting: java version 1.8.0_201 by Oracle Corporation
+[16102019 17:45:45.537] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[16102019 17:45:46.593] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\秋宗\.gradle\caches\forge_gradle\assets, --assetIndex, 1.14, --username, Dev, --accessToken, ????????, --userProperties, {}]
+[16102019 17:45:48.953] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[16102019 17:45:57.428] [Client thread/WARN] [net.minecraft.client.GameSettings/]: Skipping bad option: lastServer:
+[16102019 17:45:57.449] [Client thread/INFO] [net.minecraft.client.Minecraft/]: LWJGL Version: 3.2.2 build 10
+[16102019 17:45:58.253] [modloading-worker-2/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 28.1.44, for MC 1.14.4 with MCP 20190829.143755
+[16102019 17:45:58.253] [modloading-worker-2/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v28.1.44 Initialized
+[16102019 17:45:58.712] [Client thread/WARN] [net.minecraft.resources.ResourcePackInfo/]: Couldn't get pack info for: java.nio.file.NoSuchFileException: C:\minecraftMOD\1.14.4\MacroMOD\build\resources\main\pack.mcmeta\pack.mcmeta
+[16102019 17:46:01.310] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[16102019 17:46:01.540] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[16102019 17:46:02.891] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 28.1.44 Target: 28.1.56
+[16102019 17:46:05.868] [Client thread/WARN] [net.minecraft.client.GameSettings/]: Skipping bad option: lastServer:
+[16102019 17:46:05.961] [Client thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
+[16102019 17:46:05.962] [Client thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
+[16102019 17:46:06.150] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512 textures-atlas
+[16102019 17:46:06.698] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256 textures/particle-atlas
+[16102019 17:46:06.699] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256 textures/painting-atlas
+[16102019 17:46:06.699] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128 textures/mob_effect-atlas
+[16102019 17:46:07.569] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[16102019 17:46:47.191] [Client thread/WARN] [net.minecraft.resources.ResourcePackInfo/]: Couldn't get pack info for: java.nio.file.NoSuchFileException: C:\minecraftMOD\1.14.4\MacroMOD\build\resources\main\pack.mcmeta\pack.mcmeta
+[16102019 17:46:50.672] [Client thread/WARN] [net.minecraft.resources.ResourcePackInfo/]: Couldn't get pack info for: java.nio.file.NoSuchFileException: C:\minecraftMOD\1.14.4\MacroMOD\build\resources\main\pack.mcmeta\pack.mcmeta
+[16102019 17:46:50.674] [Client thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Mod Resources, Default
+[16102019 17:46:50.679] [Thread-1/FATAL] [net.minecraftforge.common.ForgeConfig/CORE]: Forge config just got changed on the file system!
+[16102019 17:46:53.449] [Client thread/WARN] [net.minecraft.client.GameSettings/]: Skipping bad option: lastServer:
+[16102019 17:46:53.512] [Client thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
+[16102019 17:46:53.513] [Client thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
+[16102019 17:46:53.640] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512 textures-atlas
+[16102019 17:46:53.829] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256 textures/particle-atlas
+[16102019 17:46:53.830] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256 textures/painting-atlas
+[16102019 17:46:53.830] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128 textures/mob_effect-atlas
+[16102019 17:47:03.892] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16102019 17:47:03.893] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16102019 17:47:03.893] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16102019 17:47:03.894] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16102019 17:47:03.894] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16102019 17:47:04.014] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.14.4
+[16102019 17:47:04.014] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Generating keypair
+[16102019 17:47:04.142] [Server thread/WARN] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: This world was saved with mod macro_mod version 1.0.7 and it is now at version 1.0.8, things may not work well
+[16102019 17:47:04.149] [Server thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this SERVER instance
+[16102019 17:47:04.324] [Server thread/WARN] [net.minecraft.resources.ResourcePackInfo/]: Couldn't get pack info for: java.nio.file.NoSuchFileException: C:\minecraftMOD\1.14.4\MacroMOD\build\resources\main\pack.mcmeta\pack.mcmeta
+[16102019 17:47:04.325] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.14.4-28.1.44_mapped_snapshot_20190719-1.14.3-recomp.jar
+[16102019 17:47:05.134] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
+[16102019 17:47:06.311] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 811 advancements
+[16102019 17:47:06.674] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[16102019 17:47:07.669] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: スポーン地点を準備中：0%
+[16102019 17:47:07.669] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: スポーン地点を準備中：0%
+[16102019 17:47:07.703] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: スポーン地点を準備中：0%
+[16102019 17:47:09.152] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: スポーン地点を準備中：83%
+[16102019 17:47:09.152] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: スポーン地点を準備中：83%
+[16102019 17:47:09.219] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: スポーン地点を準備中：85%
+[16102019 17:47:09.719] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: スポーン地点を準備中：85%
+[16102019 17:47:10.218] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: スポーン地点を準備中：87%
+[16102019 17:47:10.687] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: スポーン地点を準備中：97%
+[16102019 17:47:10.803] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 4117 ms
+[16102019 17:47:11.069] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16102019 17:47:11.069] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16102019 17:47:11.071] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Changing view distance to 8, from 10
+[16102019 17:47:12.749] [Netty Local Client IO #0/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
+[16102019 17:47:12.890] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dev[local:E:e4521f56] logged in with entity id 288 at (119.40868218270614, 69.1260665264769, -130.9119966933401)
+[16102019 17:47:12.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev がゲームに参加しました
+[16102019 17:47:13.786] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[16102019 17:47:13.793] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'test'/minecraft:overworld
+[16102019 17:47:13.905] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2 advancements
+[16102019 17:47:14.854] [pool-3-thread-1/WARN] [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService/]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@448e6b03[id=380df991-f603-344c-a090-369bad2a924a,name=Dev,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:79) ~[authlib-1.5.25.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) ~[authlib-1.5.25.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:60) ~[authlib-1.5.25.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:57) ~[authlib-1.5.25.jar:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) ~[guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) ~[guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) ~[guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) ~[guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) ~[guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) ~[guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) ~[guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) ~[guava-21.0.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:170) ~[authlib-1.5.25.jar:?]
+	at net.minecraft.client.Minecraft.getProfileProperties(Minecraft.java:1953) ~[?:?]
+	at net.minecraft.client.resources.SkinManager.lambda$loadProfileTextures$1(SkinManager.java:111) ~[?:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_201]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_201]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_201]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_201]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_201]
+[16102019 17:47:15.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Dev> !ちゃお
+[16102019 17:47:15.840] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] <Dev> !ちゃお
+[16102019 17:47:17.890] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[16102019 17:47:17.894] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'test'/minecraft:overworld
+[16102019 17:47:18.548] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: 切断されました
+[16102019 17:47:18.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev がゲームを退出しました
+[16102019 17:47:18.552] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
+[16102019 17:47:18.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[16102019 17:47:18.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[16102019 17:47:18.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[16102019 17:47:18.591] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'test'/minecraft:overworld
+[16102019 17:47:18.796] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (test): All chunks are saved
+[16102019 17:47:18.806] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (test): All chunks are saved
+[16102019 17:47:19.463] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

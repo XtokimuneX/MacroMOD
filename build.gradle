@@ -13,9 +13,9 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '1.0,1'
-group = 'jp.XtokimuneX.MacroMOD' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = 'MacroMOD'
+version = '1.0.8'
+group = 'jp.xtokimunex.macro_mod' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = 'macroMOD'
 
 [compileJava, compileTestJava].each{ it.options.encoding = 'UTF-8' }
 
