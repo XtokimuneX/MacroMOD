@@ -108,15 +108,31 @@ public class macroMOD
                 tt.add(data);
             }
 
+            boolean b_tmp=false;
             //読み込んだリストを元にマクロ枠を作っていく
             //リストの1行目はファイルの1行目であり注意書き
             //なのでリストとマクロ枠のナンバーが１つずれる
-            for(int i=1;i<tt.size();i++)
+            for(int i=0;i<tt.size();i++)
             {
+                //0行目のやつ
+                if(i==0)
+                {
+                    if(tt.get(0).contains("on"))b_tmp=true;
+                    continue;
+                }
+
                 if(!tt.get(i).isEmpty())
                 {
-                    KeyBinding k = new KeyBinding("マクロ"+i, -1, "秋宗屋謹製マクロMOD");
-//                    KeyBinding k = new KeyBinding(s, -1, "秋宗屋謹製マクロMOD");
+                    String s;
+                    if(b_tmp) {
+                        s = tt.get(i);
+                        if (s.length() >= 20) s = s.substring(0, 20) + "...";
+                    }else {
+                        s="マクロ"+i;
+                    }
+
+                    //KeyBinding k = new KeyBinding("マクロ"+i, -1, "秋宗屋謹製マクロMOD");
+                    KeyBinding k = new KeyBinding(s, -1, "秋宗屋謹製マクロMOD");
                     kb.add(k);
                     ClientRegistry.registerKeyBinding(k);
                 }
